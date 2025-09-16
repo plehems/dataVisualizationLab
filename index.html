@@ -4,33 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Appliance Energy Consumption Website</title>
-    <link rel="style" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header> 
-        <!-- Logo -->
-        <a href="index.html" title="Home"> 
-            <img src="PowerIcon.png" alt="Power Logo">
-        </a>
+    <header class="header"> 
+        <div class="container headerInner">
+            <!-- Logo -->
+            <a class="icon" href="index.html" title="Home"> 
+                <img class="logo" src="PowerIcon.png" alt="Power Logo">
+            </a>
 
-        <!-- Navigation-->
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="televisions.html">Televisions</a>
-            <a href="about.html">About Us</a>
-        </nav>
+            <!-- Navigation-->
+            <nav class="nav">
+                <a class="navLink" href="index.html">Home</a>
+                <a class="navLink" href="televisions.html">Televisions</a>
+                <a class="navLink" href="about.html">About Us</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Welcome to Energy Insights</h1>
-        <p>This simple site demonstrates navigation across three pages using only HTML links.</p>
-        <p>It will later host interactive visualisations about appliance energy use in Australia.</p>
+    <main class="container">
+        <section class="section">
+            <h1>Appliance Energy Use in Australia</h1>
+            <p>This simple site demonstrates navigation across three pages using only HTML links.</p>
+            <p>It will later host interactive visualisations about appliance energy use in Australia.</p>
+        </section>
     </main>
 
-    <footer>
-        <p>
-            &copy; 2025 Justin Phur
-        </p>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; 2025 Justin Phur
+            </p>
+        </div>
     </footer>
 </body>
 </html>
