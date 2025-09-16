@@ -4,26 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Televisions</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <a href="index.html" title="Home"> 
-            <img src="PowerIcon.png" alt="Power Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="televisions.html">Televisions</a> 
-            <a href="about.html">About Us</a>
-        </nav>
+    <header class="header"> 
+        <div class="container headerInner">
+            <!-- Logo -->
+            <a class="icon" href="index.html" title="Home"> 
+                <img class="logo" src="PowerIcon.png" alt="Power Logo">
+            </a>
+
+            <!-- Navigation-->
+            <nav class="nav">
+                <a class="navLink" href="index.html">Home</a>
+                <a class="navLink" href="televisions.html">Televisions</a>
+                <a class="navLink" href="about.html">About Us</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Television Energy Tips</h1>
-        <p>Nothing ATM</p>
+    <main class="container">
+        <section class="section">
+            <h1>Television Energy Tips</h1>
+            <p>Nothing ATM</p>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Justin Phur</p>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; 2025 Justin Phur
+            </p>
+        </div>
     </footer>
 </body>
 </html>
