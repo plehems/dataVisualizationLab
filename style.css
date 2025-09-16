@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     background: white;
-    color: black;
+    color: #2b2417;
     font-family: Arial, sans-serif;
     line-height: 1.55;
 }
@@ -21,11 +21,8 @@ html, body {
     position: 
         sticky; 
         top: 0; 
-    background: linear-gradient(180deg, #0e1830, #0a0f1f);
+    background: linear-gradient(180deg, #fff3c2, #f4e5b2);
     border: 1px solid #1d2a44;
-    box-shadow: 
-        0 10px 30px rgba(0,0,0,.25), 
-        inset 0 0 0 1px rgba(255,255,255,.03);
 }
 
 .headerInner {
@@ -57,11 +54,11 @@ html, body {
 
 .navLink {
     text-decoration: none;
-    color: #e6f0ff;
+    color: #2b2417;
     padding: 8px 12px;
     border-radius: 10px;
-    border: 1px solid #443a1dff;
-    background: #111a2e;
+    border: 1px solid #6b4f2a;
+    background: #fff3c2;
 }
 
 /* Hover effect */
@@ -76,15 +73,15 @@ html, body {
 .navLink:focus {
     text-decoration: none;
     outline: none;
-    border-color: #1fb9d3;
-    background: #1fb9d3;
+    border-color: #d98514;
+    background:#f0a22a;
     background-size: auto, auto, 100% 2px;
 }
 
 .footer {
-    background: linear-gradient(180deg, #0e1830, #0a0f1f);
-    border-top: 1px solid #1d2a44;
-    color: white;
+    background: linear-gradient(180deg, #f4e5b2, #fff3c2);
+    border-top: 1px solid #6b4f2a;
+    color: black;
     padding: 12px 0 12px;
     font-size: .95rem;
 }
